@@ -1,0 +1,14 @@
+.place__text {
+    max-width: 484px;
+    margin: 0 auto 26px;
+}
+
+.place__text:last-child {
+    margin: 0 auto 0;
+}
+
+@media screen and (max-width: 320px) {
+    .place__text {
+        max-width: 288px;
+    }
+}
