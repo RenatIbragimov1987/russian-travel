@@ -35,11 +35,5 @@
         max-width: 320px;
         margin: 66px auto 0;
     }
-    .page__cover::after {
-        content: '';
-        width: 0;
-        height: 0;
-        padding-top: calc(320 / * 100%);
-    }
-    
+   
 }
