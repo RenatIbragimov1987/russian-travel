@@ -21,4 +21,5 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 Удачи!
-* https://renatibragimov1987.github.io/russian-travel/index.html
+
+* [Ссылка на проект](https://renatibragimov1987.github.io/russian-travel/index.html)
