@@ -6,5 +6,8 @@
     width: 100%;
     text-align: center;
     text-decoration: none;
-    background-color: rgba(0,0,0, 0.3);
+    background-color: rgba(42, 44, 47, 0.3);
+}
+.cover__item:hover {
+    background-color: rgba(42, 44, 47, 0.8)
 }

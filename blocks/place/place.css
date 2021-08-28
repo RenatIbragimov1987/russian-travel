@@ -2,7 +2,7 @@
     margin-top: 80px;
     max-width: 984px;
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 460px 1fr;
     column-gap: 40px;
     row-gap: 48px;
 }
@@ -13,17 +13,27 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        display: grid;
+        grid-template-columns: 440px 1fr;
         column-gap: 32px;
     }
 }
 @media screen and (max-width: 768px) {
     .place {
+        grid-template-columns: 340px 1fr;
         margin-top: 73px;
-        display: grid;
         column-gap: 28px;  
     }
 }
+@media screen and (max-width: 662px) {
+    .place {
+        max-width: 400px;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+        row-gap: 32px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place {
         max-width: 320px;

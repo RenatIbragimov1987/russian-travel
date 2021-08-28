@@ -1,6 +1,6 @@
 .footer__links {
     display: flex;
-    justify-content: left;
+    
 }
 
 @media screen and (max-width: 320px) {

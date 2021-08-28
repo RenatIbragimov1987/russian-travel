@@ -8,8 +8,23 @@
     color: #FFF;
     line-height: 100px;
     font-size: 96px;
+    display: block;
 }
 
+@media screen and (max-width: 692px) {
+    .lead__title {
+        max-width: 620px;
+        font-size: 60px;
+        line-height: 80px;
+    }
+}
+@media screen and (max-width: 438px) {
+    .lead__title {
+        max-width: 400px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
 @media screen and (max-width: 320px) {
     .lead__title {
         max-width: 288px;

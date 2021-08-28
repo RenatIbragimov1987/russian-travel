@@ -9,6 +9,13 @@
     margin: 0;
 }
 
+@media screen and (max-width: 586px) {
+    .cover__title {
+        max-width: 288px;
+        font-size: 36px;
+        line-height: 38px;
+    }
+}
 @media screen and (max-width: 320px) {
     .cover__title {
         max-width: 288px;

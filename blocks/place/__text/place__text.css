@@ -1,14 +1,23 @@
 .place__text {
-    max-width: 484px;
-    margin: 0 auto 26px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 29px;
+    font-size: 18px;
+    order: 3;
+    align-self: start;
 }
 
-.place__text:last-child {
-    margin: 0 auto 0;
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
     .place__text {
-        max-width: 288px;
+        max-width: 456px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .place__text {
+        max-width: 352px;
+        line-height: 26px;
+        font-size: 16px;
     }
 }

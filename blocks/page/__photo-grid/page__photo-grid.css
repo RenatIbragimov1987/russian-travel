@@ -2,6 +2,7 @@
     margin: 92px auto 0;
     max-width: 1184px;
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(auto-fill, 284px);
     grid-gap: 16px;
 }
@@ -19,6 +20,14 @@
         max-width: 720px;
         grid-template-columns: repeat(auto-fill, 352px);
         grid-gap: 16px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .page__photo-grid {
+        margin: 64px auto 0;
+        max-width: 300px;
+        grid-template-columns: repeat(auto-fill, 300px);
+        grid-gap: 12px;
     }
 }
 @media screen and (max-width: 320px) {

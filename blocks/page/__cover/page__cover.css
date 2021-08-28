@@ -15,10 +15,6 @@
     padding-top: calc(740 / 1184 * 100%);
 }
 
-.page__cover:hover {
-    opacity: 80%;
-}
-
 @media screen and (max-width: 1024px) {
     .page__cover {
         max-width: 1024px;

@@ -1,0 +1,12 @@
+.footer__information {
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__information {
+        padding-bottom: 32px;
+    }
+    .footer__information:last-child{
+        padding-bottom: 48px;
+    }
+}
