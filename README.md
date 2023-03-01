@@ -1,6 +1,6 @@
 # Проект: Путешествие по России
  
- * [Ссылка на проект](https://renatibragimov1987.github.io/russian-travel/index.html)  
+ * [Ссылка на проект](https://github.com/RenatIbragimov1987/russian-travel.git)  
  Макет из Figma.  
  Библиотека Normalize  
  Использовал такие инструменты как Flexbox и Grid Layouts.  
