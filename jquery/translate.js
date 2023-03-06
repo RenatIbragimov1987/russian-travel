@@ -9,8 +9,10 @@ $(document).ready(function() {
   $('.header__lang-link_en').click(function(event) {
     event.preventDefault();
     var lang = 'en';
+		
     var dict = {
 	en: {
+			'SITE-LOGO': './images/header-logo-russia.svg',
 			'SITE-TITLE': 'Traveling in Russia',
 			'SITE-SUBTITLE': 'The real country is not in the news, but here.',
 			'SITE-CAPTION': 'your shelf is top',
@@ -46,6 +48,8 @@ $(document).ready(function() {
 		},
 
 };
+var logoSrc = dict[lang]['SITE-LOGO'];
+$('.header__logo').attr('src', logoSrc);
     $.html5Translate(dict, lang);
   });
 	$('.header__lang-link_ru').click(function(event) {
